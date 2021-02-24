@@ -1,4 +1,4 @@
-package me.hjjang.webservice.config.auth;
+package me.hjjang.webservice.config.auth.dto;
 
 import lombok.Getter;
 import me.hjjang.webservice.domain.user.User;

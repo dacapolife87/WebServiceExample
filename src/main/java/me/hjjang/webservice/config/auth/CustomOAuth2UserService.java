@@ -3,6 +3,7 @@ package me.hjjang.webservice.config.auth;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import me.hjjang.webservice.config.auth.dto.OAuthAttributes;
+import me.hjjang.webservice.config.auth.dto.SessionUser;
 import me.hjjang.webservice.domain.user.User;
 import me.hjjang.webservice.domain.user.UserRepository;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -16,7 +17,6 @@ import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpSession;
 import java.util.Collections;
-import java.util.Optional;
 
 @Slf4j
 @RequiredArgsConstructor
